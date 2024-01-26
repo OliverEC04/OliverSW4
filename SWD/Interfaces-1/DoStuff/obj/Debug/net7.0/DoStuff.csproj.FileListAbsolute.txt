@@ -1,0 +1,11 @@
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.deps.json
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.pdb
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.AssemblyInfoInputs.cache
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.AssemblyInfo.cs
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.csproj.CoreCompileInputs.cache
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\refint\DoStuff.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.pdb
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\ref\DoStuff.dll

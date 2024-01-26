@@ -1,0 +1,11 @@
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.deps.json
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.pdb
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.AssemblyInfoInputs.cache
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.AssemblyInfo.cs
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.csproj.CoreCompileInputs.cache
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\refint\Vehicles.dll
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.pdb
+G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\ref\Vehicles.dll
