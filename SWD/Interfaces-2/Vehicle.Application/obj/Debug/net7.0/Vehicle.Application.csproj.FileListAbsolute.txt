@@ -16,3 +16,22 @@ G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicle.Application
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.pdb
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.genruntimeconfig.cache
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\ref\Vehicle.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicle.Application.exe
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicle.Application.deps.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicle.Application.runtimeconfig.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicle.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicle.Application.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicles.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\bin\Debug\net7.0\Vehicles.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.csproj.AssemblyReference.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.AssemblyInfoInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.AssemblyInfo.cs
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.csproj.CoreCompileInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.sourcelink.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle..E84643DA.Up2Date
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\refint\Vehicle.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\Vehicle.Application.genruntimeconfig.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicle.Application\obj\Debug\net7.0\ref\Vehicle.Application.dll

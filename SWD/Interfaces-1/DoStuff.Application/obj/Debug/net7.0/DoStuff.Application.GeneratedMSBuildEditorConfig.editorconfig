@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoStuff.Application
-build_property.ProjectDir = G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff.Application\
+build_property.ProjectDir = C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

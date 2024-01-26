@@ -16,3 +16,22 @@ G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff.Application
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.pdb
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.genruntimeconfig.cache
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\ref\DoStuff.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.Application.exe
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.Application.deps.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.Application.runtimeconfig.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.Application.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\bin\Debug\net7.0\DoStuff.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.csproj.AssemblyReference.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.AssemblyInfoInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.AssemblyInfo.cs
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.csproj.CoreCompileInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.sourcelink.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff..78D8B3F2.Up2Date
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\refint\DoStuff.Application.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\DoStuff.Application.genruntimeconfig.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff.Application\obj\Debug\net7.0\ref\DoStuff.Application.dll

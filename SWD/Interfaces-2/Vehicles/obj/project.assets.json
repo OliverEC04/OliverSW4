@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj",
+      "projectUniqueName": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj",
       "projectName": "Vehicles",
-      "projectPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj",
+      "projectPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj",
       "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\obj\\",
+      "outputPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",

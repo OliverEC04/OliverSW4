@@ -9,3 +9,15 @@ G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\n
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\refint\DoStuff.dll
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.pdb
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-1\DoStuff\obj\Debug\net7.0\ref\DoStuff.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.deps.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\bin\Debug\net7.0\DoStuff.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.AssemblyInfoInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.AssemblyInfo.cs
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.csproj.CoreCompileInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.sourcelink.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\refint\DoStuff.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\DoStuff.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-1\DoStuff\obj\Debug\net7.0\ref\DoStuff.dll

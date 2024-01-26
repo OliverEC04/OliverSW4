@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vehicles
-build_property.ProjectDir = G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\
+build_property.ProjectDir = C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

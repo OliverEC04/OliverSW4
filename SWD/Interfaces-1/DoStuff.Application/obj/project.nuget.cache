@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BOveWhrwTpy14WmKN1gmzr/kT9kFaKBXKWIZ3FlcNEjcEnZ+TYIuZIwc27knsVMZwEOIjsbMZKiXd+JFWrplUw==",
+  "dgSpecHash": "RQTPxrWak0vGmAXSwnRgpqOU7aiN80wCm3aP0Bedf27D77La+CBCJxQsz413I4eAanWJP8J+t/XCn+uAl/mYtw==",
   "success": true,
-  "projectFilePath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-1\\DoStuff.Application\\DoStuff.Application.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\olive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\olive\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-1\\DoStuff.Application\\DoStuff.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj": {}
+    "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj": {}
   },
   "projects": {
-    "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj": {
+    "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj",
+        "projectUniqueName": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj",
         "projectName": "Vehicle.Application",
-        "projectPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj",
+        "projectPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Vehicle.Application.csproj",
         "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\obj\\",
+        "outputPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj": {
-                "projectPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj"
+              "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj": {
+                "projectPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj": {
+    "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj",
+        "projectUniqueName": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj",
         "projectName": "Vehicles",
-        "projectPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\Vehicles.csproj",
+        "projectPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\Vehicles.csproj",
         "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\obj\\",
+        "outputPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",

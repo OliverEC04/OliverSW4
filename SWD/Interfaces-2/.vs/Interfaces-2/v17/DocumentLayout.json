@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\",
+  "WorkspaceRootPath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{369045CB-9C8E-47D4-A9A0-90F11D5CD032}|Vehicle.Application\\Vehicle.Application.csproj|g:\\my drive\\skole\\uni\\4. semester\\swd\\exercises\\interfaces-2\\vehicle.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{369045CB-9C8E-47D4-A9A0-90F11D5CD032}|Vehicle.Application\\Vehicle.Application.csproj|c:\\libraries\\code\\oliversw4\\swd\\interfaces-2\\vehicle.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{369045CB-9C8E-47D4-A9A0-90F11D5CD032}|Vehicle.Application\\Vehicle.Application.csproj|solutionrelative:vehicle.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|g:\\my drive\\skole\\uni\\4. semester\\swd\\exercises\\interfaces-2\\vehicles\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|c:\\libraries\\code\\oliversw4\\swd\\interfaces-2\\vehicles\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|g:\\my drive\\skole\\uni\\4. semester\\swd\\exercises\\interfaces-2\\vehicles\\dieselengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|c:\\libraries\\code\\oliversw4\\swd\\interfaces-2\\vehicles\\dieselengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\dieselengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|g:\\my drive\\skole\\uni\\4. semester\\swd\\exercises\\interfaces-2\\vehicles\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|c:\\libraries\\code\\oliversw4\\swd\\interfaces-2\\vehicles\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\motorbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|g:\\my drive\\skole\\uni\\4. semester\\swd\\exercises\\interfaces-2\\vehicles\\gasengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|c:\\libraries\\code\\oliversw4\\swd\\interfaces-2\\vehicles\\gasengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76D15C3-D62C-4AE3-994D-909B9A0B2F14}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\gasengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DieselEngine.cs",
-              "DocumentMoniker": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\DieselEngine.cs",
+              "DocumentMoniker": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\DieselEngine.cs",
               "RelativeDocumentMoniker": "Vehicles\\DieselEngine.cs",
-              "ToolTip": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\DieselEngine.cs",
+              "ToolTip": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\DieselEngine.cs",
               "RelativeToolTip": "Vehicles\\DieselEngine.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Program.cs",
+              "DocumentMoniker": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Program.cs",
               "RelativeDocumentMoniker": "Vehicle.Application\\Program.cs",
-              "ToolTip": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicle.Application\\Program.cs",
+              "ToolTip": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicle.Application\\Program.cs",
               "RelativeToolTip": "Vehicle.Application\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +61,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IEngine.cs",
-              "DocumentMoniker": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\IEngine.cs",
+              "DocumentMoniker": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\IEngine.cs",
               "RelativeDocumentMoniker": "Vehicles\\IEngine.cs",
-              "ToolTip": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\IEngine.cs",
+              "ToolTip": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\IEngine.cs",
               "RelativeToolTip": "Vehicles\\IEngine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MotorBike.cs",
-              "DocumentMoniker": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\MotorBike.cs",
+              "DocumentMoniker": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\MotorBike.cs",
               "RelativeDocumentMoniker": "Vehicles\\MotorBike.cs",
-              "ToolTip": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\MotorBike.cs",
+              "ToolTip": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\MotorBike.cs",
               "RelativeToolTip": "Vehicles\\MotorBike.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +91,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "GasEngine.cs",
-              "DocumentMoniker": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\GasEngine.cs",
+              "DocumentMoniker": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\GasEngine.cs",
               "RelativeDocumentMoniker": "Vehicles\\GasEngine.cs",
-              "ToolTip": "G:\\My Drive\\Skole\\Uni\\4. Semester\\SWD\\Exercises\\Interfaces-2\\Vehicles\\GasEngine.cs",
+              "ToolTip": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-2\\Vehicles\\GasEngine.cs",
               "RelativeToolTip": "Vehicles\\GasEngine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-24T15:32:30.809Z",
               "EditorCaption": ""

@@ -9,3 +9,15 @@ G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\refint\Vehicles.dll
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.pdb
 G:\My Drive\Skole\Uni\4. Semester\SWD\Exercises\Interfaces-2\Vehicles\obj\Debug\net7.0\ref\Vehicles.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.deps.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\bin\Debug\net7.0\Vehicles.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.AssemblyInfoInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.AssemblyInfo.cs
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.csproj.CoreCompileInputs.cache
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.sourcelink.json
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\refint\Vehicles.dll
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\Vehicles.pdb
+C:\Libraries\Code\OliverSW4\SWD\Interfaces-2\Vehicles\obj\Debug\net7.0\ref\Vehicles.dll
