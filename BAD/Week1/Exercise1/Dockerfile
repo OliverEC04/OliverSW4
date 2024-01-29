@@ -1,25 +1,15 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER app
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
+# Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["Exercise1/Exercise1.csproj", "Exercise1/"]
-RUN dotnet restore "./Exercise1/Exercise1.csproj"
+WORKDIR /source
 COPY . .
-WORKDIR "/src/Exercise1"
-RUN dotnet build "./Exercise1.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet restore
+RUN dotnet publish -c release -o /app --no-restore
 
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Exercise1.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
+# Serve stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Exercise1.dll"]
+COPY --from=build /app ./
+
+EXPOSE 5050
+
+ENTRYPOINT ["dotnet", "bin/Debug/net8.0/Exercise1.dll"]
