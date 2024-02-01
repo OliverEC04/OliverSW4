@@ -1,36 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CardGame;
 
-namespace CardGame
+internal enum Suit: int
 {
-    internal enum Suit
+    Red = 1,
+    Blue = 2,
+    Green = 3,
+    Yellow = 4
+}
+
+internal sealed class Card
+{
+    private readonly Suit _suit;
+    private readonly int _num;
+
+    public Card(Suit suit, int num)
     {
-        Red = 1,
-        Blue = 2,
-        Green = 3,
-        Yellow = 4
+        _suit = suit;
+        _num = num;
     }
 
-    internal class Card
+    public int Value
     {
-        private readonly Suit _suit;
-        private readonly int _num;
-
-        public int Value
+        get
         {
-            get
-            {
-                return Convert.ToInt32(_suit) * _num;
-            }
-        }
-
-        public Card(Suit suit, int num)
-        {
-            _suit = suit;
-            _num = num;
+            return (int)_suit * _num;
         }
     }
 }
