@@ -8,7 +8,7 @@ namespace CardGame
 {
     internal class Player
     {
-        public Card[] Cards { get; }
+        public Card[] Cards { get; } // man kan kun get array, men ændre hver element
         public string Name { get; }
 
         public Player(string name)
@@ -16,7 +16,15 @@ namespace CardGame
             Name = name;
         }
 
-        public void addCard(Card card)
+        public IEnumerable<Card> GetCards()
+        {
+            foreach (Card card in Cards)
+            {
+                yield return card;
+            }
+        }
+
+        public void AddCard(Card card)
         {
             Cards.Append(card);
         }
