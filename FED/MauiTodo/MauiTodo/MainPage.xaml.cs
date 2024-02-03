@@ -5,29 +5,34 @@ namespace MauiTodo
 {
     public partial class MainPage : ContentPage
     {
-        ObservableCollection<TodoItem> todoItems;
-        int count = 0;
+        private int _count = 0;
+        private readonly ObservableCollection<TodoItem> _todoItems;
         private readonly Database _database;
 
         public MainPage()
         {
             InitializeComponent();
 
+            _todoItems = new ObservableCollection<TodoItem>();
             _database = new Database();
 
-            TodosCollection.ItemsSource = todoItems;
+            TodosCollection.ItemsSource = _todoItems;
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            TodoItem _todoItem = new TodoItem();
+            TodoItem todoItem = new TodoItem();
 
-            _todoItem.Id = 1;
-            _todoItem.Title = "oliver test";
+            _count++;
+            todoItem.Id = _count;
+            todoItem.Title = TodoTitleEntry.Text;
+            todoItem.Due = DueDatePicker.Date;
+
+            AddBtn.BackgroundColor = new Color(0, 255, 0);
 
             Console.WriteLine("oliuvrer");
 
-            _ = _database.Addtodo(_todoItem);
+            _todoItems.Add(todoItem);
         }
     }
 

@@ -13,11 +13,35 @@
         <DatePicker Grid.Row="2"
                     x:Name="DueDatePicker"></DatePicker>
         <Button Grid.Row="3"
+                x:Name="AddBtn"
                 Text="Add"
                 Clicked="Button_Clicked"></Button>
-        <CollectionView x:Name="TodosCollection">
+        <CollectionView Grid.Row="4"
+                        x:Name="TodosCollection">
             <CollectionView.ItemTemplate>
-                <DataTemplate></DataTemplate>
+                <DataTemplate>
+                    <Grid WidthRequest="350"
+                          Padding="10"
+                          Margin="0, 20"
+                          ColumnDefinitions="2*, 5*"
+                          RowDefinitions="Auto, 50"
+                          x:Name="TodoItems">
+                        <CheckBox VerticalOptions="Center"
+                                  HorizontalOptions="Center"
+                                  Grid.Column="0"
+                                  Grid.Row="0"></CheckBox>
+                        <Label Text="{Binding Title}"
+                               FontAttributes="Bold"
+                               LineBreakMode="WordWrap"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="Large"
+                               Grid.Row="0"
+                               Grid.Column="1"></Label>
+                        <Label Text="{Binding Due, StringFormat='{0:dd MMM yyy}'}"
+                               Grid.Column="1"
+                               Grid.Row="1"></Label>
+                    </Grid>
+                </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
     </Grid>
