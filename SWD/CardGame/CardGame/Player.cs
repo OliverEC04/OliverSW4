@@ -1,4 +1,5 @@
-﻿using System;
+﻿// man kan kun get array, men ændre hver element
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace CardGame
 {
-    internal class Player
+    internal class Player : CardHolder
     {
-        public Card[] Cards { get; } // man kan kun get array, men ændre hver element
         public string Name { get; }
 
         public Player(string name)
@@ -16,17 +16,24 @@ namespace CardGame
             Name = name;
         }
 
-        public IEnumerable<Card> GetCards()
+        public int GetHandValue()
+        {
+            int value = 0;
+
+            foreach (Card card in Cards)
+            {
+                value += card.Value;
+            }
+
+            return value;
+        }
+        
+        public IEnumerable<Card> ShowHand()
         {
             foreach (Card card in Cards)
             {
                 yield return card;
             }
-        }
-
-        public void AddCard(Card card)
-        {
-            Cards.Append(card);
         }
     }
 }

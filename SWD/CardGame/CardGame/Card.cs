@@ -10,20 +10,40 @@ internal enum Suit: int
 
 internal sealed class Card
 {
-    private readonly Suit _suit;
-    private readonly int _num;
-
-    public Card(Suit suit, int num)
-    {
-        _suit = suit;
-        _num = num;
-    }
-
+    public Suit Suit { get; }
+    public int Num { get; }
+    
     public int Value
     {
         get
         {
-            return (int)_suit * _num;
+            return (int)Suit * Num;
+        }
+    }
+
+    public Card(): this(0,0)
+    {}
+    
+    public Card(Suit suit, int num)
+    {
+        Random rnd = new Random();
+        
+        if (1 <= (int)suit && (int)suit <= 4)
+        {
+            Suit = suit;
+        }
+        else
+        {
+            Suit = (Suit)rnd.Next(1, 4);
+        }
+
+        if (1 <= num && num <= 8)
+        {
+            Num = num;
+        }
+        else
+        {
+            Num = rnd.Next(1, 8);
         }
     }
 }

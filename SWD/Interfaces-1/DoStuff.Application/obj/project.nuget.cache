@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RQTPxrWak0vGmAXSwnRgpqOU7aiN80wCm3aP0Bedf27D77La+CBCJxQsz413I4eAanWJP8J+t/XCn+uAl/mYtw==",
+  "dgSpecHash": "3lm7X4S5kv4PQD1WHKqIhLPM770s6kjp0pBW3WVv2jdrXTVNSCuxGZLS+n1dyIcx4D2xOLI6VPJyh1QTVMJtUA==",
   "success": true,
   "projectFilePath": "C:\\Libraries\\Code\\OliverSW4\\SWD\\Interfaces-1\\DoStuff.Application\\DoStuff.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
