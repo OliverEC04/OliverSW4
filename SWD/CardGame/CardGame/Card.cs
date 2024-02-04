@@ -8,7 +8,7 @@ internal enum Suit: int
     Yellow = 4
 }
 
-internal sealed class Card
+internal class Card
 {
     public Suit Suit { get; }
     public int Num { get; }

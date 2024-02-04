@@ -10,10 +10,19 @@ namespace CardGame
     internal class Player : CardHolder
     {
         public string Name { get; }
+        public bool Weak { get; } = false;
 
         public Player(string name)
         {
             Name = name;
+
+            Random rnd = new Random();
+            
+            if (rnd.Next(0, 4) == 0)
+            {
+                Weak = true;
+                MaxCards = 3;
+            }
         }
 
         public int GetHandValue()

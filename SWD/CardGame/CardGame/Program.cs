@@ -13,7 +13,7 @@ namespace CardGame
             p.StartMenu();
         }
 
-        private void StartMenu()
+        private void StartMenu(string weakPlayerAdded = "")
         {
             Console.Clear();
             
@@ -21,6 +21,13 @@ namespace CardGame
             Console.WriteLine("g: begin game");
             Console.WriteLine("w: announce winner");
 
+            if (weakPlayerAdded != "")
+            {
+                Console.WriteLine();
+                Console.WriteLine($"Too bad, {weakPlayerAdded} is a weak player, and can only hold 3 cards!");
+                Console.WriteLine();
+            }
+            
             switch (Console.ReadLine())
             {
                 case "p":
@@ -45,9 +52,16 @@ namespace CardGame
 
             string name = Console.ReadLine();
             
-            _game.AddPlayer(name);
-            
-            StartMenu();
+            Player player = _game.AddPlayer(name);
+
+            if (player.Weak)
+            {
+                StartMenu(player.Name);
+            }
+            else
+            {
+                StartMenu();
+            }
         }
 
         private void DealtMenu()

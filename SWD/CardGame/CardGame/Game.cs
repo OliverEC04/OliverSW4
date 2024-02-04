@@ -16,15 +16,15 @@ namespace CardGame
             _deck = new Deck(cardCount);
         }
 
-        public void AddPlayer(string name)
+        public Player AddPlayer(string name)
         {
-            _players.Add(new Player(name));
+            Player player = new Player(name);
+            _players.Add(player);
+            return player;
         }
 
         public void Begin()
         {
-            Random rnd = new Random();
-            
             int cardsPerPlayer = (int)Math.Floor((decimal) _deck.CardCount / _players.Count);
 
             foreach (Player player in _players)
