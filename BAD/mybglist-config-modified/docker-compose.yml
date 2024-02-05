@@ -1,0 +1,16 @@
+﻿services:
+  api:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "55221:55221"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Staging"
+      ASPNETCORE_URLS: "http://+:55221"
+    volumes:
+      - hello-compose:/tmp
+      - .:/code
+volumes:
+  hello-compose:
+    name: hello-compose-db
+
