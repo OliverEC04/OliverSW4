@@ -51,5 +51,11 @@ namespace Calculator.Test.Unit
         {
             Assert.That(uut.Add(a, b), Is.EqualTo(result));
         }
+        
+        [TestCase(-4, 2, -8)]
+        public void Multiply_NegativeNumbers_SumIsCorrect(double a, double b, double result)
+        {
+            Assert.That(uut.Multiply(a, b), Is.EqualTo(result));
+        }
     }
 }
