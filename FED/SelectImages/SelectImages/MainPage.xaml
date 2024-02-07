@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SelectImages.MainPage">
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <VerticalStackLayout Grid.Column="0">
+                <Label Text="Greg er homosexuel"></Label>
+                <Button Text="Select child nudes"></Button>
+                <Entry x:Name="Entry"></Entry>
+                <Editor x:Name="Editor"></Editor>
+                <Button Text="Ad"></Button>
+            </VerticalStackLayout>
+            <Image Grid.Column="1" 
+                   x:Name="Image" />
+        </Grid>
+    </ScrollView>
+</ContentPage>
