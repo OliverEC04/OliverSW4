@@ -1,0 +1,16 @@
+﻿version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.WEB
+    ports:
+      - "5050:80"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.API
+    ports:
+      - "6060:80"

@@ -1,0 +1,23 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["bakery-web/bakery-web.csproj", "bakery-web/"]
+COPY ["bakery-data/bakery-data.csproj", "bakery-data/"]
+RUN dotnet restore "bakery-web/bakery-web.csproj"
+COPY . .
+WORKDIR "/src/bakery-web"
+RUN dotnet build "bakery-web.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "bakery-web.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "bakery-web.dll"]
