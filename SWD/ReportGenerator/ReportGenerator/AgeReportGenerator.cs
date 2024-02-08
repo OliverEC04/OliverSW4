@@ -1,8 +1,8 @@
 ﻿namespace ReportGenerator;
 
-internal class NameReportGenerator : ReportGenerator
+internal class AgeReportGenerator : ReportGenerator
 {
-    public NameReportGenerator(EmployeeDB employeeDb) : base(employeeDb)
+    public AgeReportGenerator(EmployeeDB employeeDb) : base(employeeDb)
     {}
     
     public override void CompileReport()
@@ -13,9 +13,9 @@ internal class NameReportGenerator : ReportGenerator
         foreach (var e in Employees)
         {
             Console.WriteLine("------------------");
+            Console.WriteLine($"Age: {e.Age}");
             Console.WriteLine($"Name: {e.Name}");
             Console.WriteLine($"Salary: {e.Salary}");
-            Console.WriteLine($"Age: {e.Age}");
             Console.WriteLine("------------------");
         }
     }

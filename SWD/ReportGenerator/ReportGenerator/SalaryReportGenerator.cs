@@ -1,15 +1,21 @@
 ﻿namespace ReportGenerator;
 
-public class SalaryReportGenerator : IReportGenerator
+internal class SalaryReportGenerator : ReportGenerator
 {
-    public void CompileReport(List<Employee> employees)
+    public SalaryReportGenerator(EmployeeDB employeeDb) : base(employeeDb)
+    {}
+    
+    public override void CompileReport()
     {
+        ExtractDatabase();
+        
         Console.WriteLine("Salary-first report");
-        foreach (var e in employees)
+        foreach (var e in Employees)
         {
             Console.WriteLine("------------------");
-            Console.WriteLine("Salary: {0}", e.Salary);
-            Console.WriteLine("Name: {0}", e.Name);
+            Console.WriteLine($"Salary: {e.Salary}");
+            Console.WriteLine($"Name: {e.Name}");
+            Console.WriteLine($"Age: {e.Age}");
             Console.WriteLine("------------------");
         }
     }
