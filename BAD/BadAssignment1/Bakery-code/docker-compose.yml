@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.WEB
+    environment:
+      - API_URL=http://api:80
     ports:
       - "5050:80"
 
