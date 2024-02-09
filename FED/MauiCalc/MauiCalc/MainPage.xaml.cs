@@ -30,7 +30,9 @@ public partial class MainPage : ContentPage
                 new ColumnDefinition{Width = new GridLength(1, GridUnitType.Star)},
                 new ColumnDefinition{Width = new GridLength(1, GridUnitType.Star)},
                 new ColumnDefinition{Width = new GridLength(1, GridUnitType.Star)},
-            }
+            },
+            RowSpacing = 2,
+            ColumnSpacing = 2,
         };
 
         Content = _grid;
@@ -41,68 +43,42 @@ public partial class MainPage : ContentPage
         Label label = new Label
         {
             Text = "LCD",
-            
+            FontFamily = "LCD",
+            FontSize = 60,
+            HorizontalTextAlignment = TextAlignment.End,
+            VerticalTextAlignment = TextAlignment.Center,
         };
         
-        _grid.Add(label);
+        _grid.AddWithSpan(label, 0, 0, 1, 4);
     }
     
     private void InitBtns()
     {
+        int btnI = 0;
+        string[] btnTxt = ["7", "4", "1", ".", "8", "5", "2", "0", "9", "6", "3", "=", "+", "-", "X", "/"];
+        
         for (int x = 0; x < 4; x++)
         {
             for (int y = 0; y < 4; y++)
             {
                 Button btn = new Button
                 {
-                    Text = $"{x}, {y}",
+                    Text = btnTxt[btnI],
+                    CornerRadius = 0,
                 };
                 btn.Clicked += OnBtn;
                 
                 _grid.Add(btn, x, y+1);
+                btnI++;
             }
         }
     }
 
     private void OnBtn(object sender, EventArgs e)
     {
-        //Cast sender to Button type to read its text
         var btn = sender as Button;
-        //Assigns the value of the Button's Text property to a temporary variable
-        var thisInput = btn.Text;
-
-        if (numbers.Contains(thisInput))
-        {
-            if (resetOnNextInput)
-            {
-                CurrentInput = btn.Text;
-                resetOnNextInput = false;
-            }
-            else
-            {
-                CurrentInput += btn.Text;
-            }
-            LCD.Text = CurrentInput;
-        }
-        else if (operators.Contains(thisInput))
-        {
-            //PerformCalculation method to calculate operation(+,-,/,=)
-            var result = PerformCalculation();
-            if (thisInput == "=")
-            {
-                CurrentInput = result.ToString();
-                LCD.Text = CurrentInput;
-                RunningTotal = String.Empty;
-                selectedOperator = String.Empty;
-                resetOnNextInput = true;
-            }
-            else
-            {
-                RunningTotal = result.ToString();
-                selectedOperator = thisInput;
-                CurrentInput = String.Empty;
-                LCD.Text = CurrentInput;
-            }
-        }
+        var input = btn.Text;
+        
+        
     }
 }
