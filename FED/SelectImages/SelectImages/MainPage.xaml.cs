@@ -22,13 +22,13 @@ public partial class MainPage : ContentPage
     {
         var image = await FilePicker.Default.PickAsync(new PickOptions
             {
-                PickerTitle = "Pick Image",
+                PickerTitle = "Greg er gay",
                 FileTypes = FilePickerFileType.Images
             });
         if (image != null)
         {
             _imagePath = image.FullPath.ToString();
-            SelectedImage.Source = _imagePath;
+            // SelectedImage.Source = _imagePath;
         }
     }
 
@@ -41,9 +41,23 @@ public partial class MainPage : ContentPage
         imageInfo.Description = DescEditor.Text;
 
         var _ = await _database.AddImageInfo(imageInfo);
+        AddImage(imageInfo);
         
         // reset controls
         
         idCounter++;
+    }
+
+    private void AddImage(ImageInfo imageInfo) // Lav om til template
+    {
+        StackLayout stack = new StackLayout();
+        Image img = new Image
+        {
+            WidthRequest = "150*",
+        };
+        Label title = new Label();
+        Label desc = new Label();
+
+        img.Source = imageInfo.Path;
     }
 }

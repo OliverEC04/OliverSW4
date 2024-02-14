@@ -11,59 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_annotation_annotation_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_customview_customview_poolingcontainer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_profileinstaller_profileinstaller.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_window_extensions_core_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_annotations_24_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_common_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_android_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_annotation_annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_annotation_annotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_arch_core_core_common.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_arch_core_core_common.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_asynclayoutinflater_asynclayoutinflater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_collection_collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_collection_collection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_collection_collection_ktx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_collection_collection_ktx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_concurrent_concurrent_futures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_concurrent_concurrent_futures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_constraintlayout_constraintlayout_core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_constraintlayout_constraintlayout_core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_legacy_legacy_support_core_ui.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_legacy_legacy_support_v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_lifecycle_lifecycle_common.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_lifecycle_lifecycle_common.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_media_media.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_resourceinspection_resourceinspection_annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/androidx_resourceinspection_resourceinspection_annotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/annotations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/annotations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/disklrucache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/disklrucache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/guava_listenablefuture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/guava_listenablefuture.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_annotations_23_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_1_7_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_common_1_7_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_7_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_7_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_android_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/dataSources/decc4984-1320-4019-8ffc-59140c08f243.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/dataSources/decc4984-1320-4019-8ffc-59140c08f243.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectImages/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MauiProgram.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Models/ImageInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Models/ImageInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Platforms/MacCatalyst/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Platforms/MacCatalyst/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Platforms/Tizen/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Platforms/Tizen/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Platforms/Windows/Package.appxmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Platforms/Windows/Package.appxmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Resources/Fonts/OpenSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Resources/Fonts/OpenSans-Semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Resources/Images/dotnet_bot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Resources/Styles/Colors.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Resources/Styles/Colors.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/Resources/Styles/Styles.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/Resources/Styles/Styles.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SelectImages/SelectImages.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/SelectImages.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/SelectImages.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/gfg.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,42 +34,42 @@
       <facet id="SelectImages/invalid/Android Facet - SelectImages" />
     </ignored-facets>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2c33DmGBxuEaRfGHVrTunmn0H4t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UWP.SelectImages.executor": "Debug",
-    "Xamarin.Android.SelectImages.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UWP.SelectImages.executor&quot;: &quot;Debug&quot;,
+    &quot;Xamarin.Android.SelectImages.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ],
-    "rider.external.source.directories": [
-      "C:\\Users\\olive\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\olive\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\olive\\AppData\\Local\\Symbols\\src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\olive\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\olive\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\olive\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="UWP.SelectImages">
     <configuration name="SelectImages" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/SelectImages/SelectImages.csproj" />
@@ -160,6 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707326318542</updated>
       <workItem from="1707326319731" duration="6029000" />
+      <workItem from="1707911127138" duration="2093000" />
     </task>
     <servers />
   </component>
