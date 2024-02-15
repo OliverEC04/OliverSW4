@@ -47,6 +47,13 @@
                 Grid.Column="0"
                 Grid.ColumnSpan="4"
                 x:Name="Cont">
+                <DataTemplate>
+                    <StackLayout>
+                        <Image/>
+                        <Label/>
+                        <Label/>
+                    </StackLayout>
+                </DataTemplate>
             </FlexLayout>
         </Grid>
         <!-- <Grid RowDefinitions="100, 100, 100, 100, 100" -->
