@@ -47,13 +47,25 @@
                 Grid.Column="0"
                 Grid.ColumnSpan="4"
                 x:Name="Cont">
-                <DataTemplate>
-                    <StackLayout>
-                        <Image/>
-                        <Label/>
-                        <Label/>
-                    </StackLayout>
-                </DataTemplate>
+                <CollectionView
+                    ItemsSource="{Binding Imgs}"
+                    ItemsLayout="HorizontalList"
+                    x:Name="ImgCollection">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout
+                                WidthRequest="150"
+                                Margin="40, 40, 40, 40">
+                                <Image
+                                    Source="{Binding Path}"/>
+                                <Label
+                                    Text="{Binding Title}"/>
+                                <Label
+                                    Text="{Binding Description}"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </FlexLayout>
         </Grid>
         <!-- <Grid RowDefinitions="100, 100, 100, 100, 100" -->

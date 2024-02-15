@@ -9,13 +9,17 @@ public partial class MainPage : ContentPage
     private int idCounter = 0;
     private string? _imagePath;
     private Database _database;
-    
+    public ObservableCollection<ImageInfo> Imgs;
+
+
     ObservableCollection<ImageInfo> Images { get; set; } = new();
     
     public MainPage()
     {
         InitializeComponent();
         _database = new Database();
+        Imgs = new ObservableCollection<ImageInfo>();
+        ImgCollection.ItemsSource = Imgs;
     }
 
     private async void OnSelectBtn(object sender, EventArgs e)
@@ -42,6 +46,7 @@ public partial class MainPage : ContentPage
 
         var _ = await _database.AddImageInfo(imageInfo);
         //AddImage(imageInfo);
+        Imgs.Add(imageInfo);
         
         // reset controls
         
