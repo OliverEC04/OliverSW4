@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MauiStockTake/.idea/.idea.MauiStockTake/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MauiStockTake/.idea/.idea.MauiStockTake/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MauiStockTake/.idea/.idea.MauiStockTake/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MauiStockTake/.idea/.idea.MauiStockTake/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/dataSources/decc4984-1320-4019-8ffc-59140c08f243.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/dataSources/decc4984-1320-4019-8ffc-59140c08f243.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +117,10 @@
       <workItem from="1707911127138" duration="2093000" />
       <workItem from="1708018204017" duration="613000" />
       <workItem from="1708026692413" duration="19000" />
+      <workItem from="1708081430401" duration="3000" />
+      <workItem from="1708081511443" duration="1236000" />
+      <workItem from="1708087325681" duration="81000" />
+      <workItem from="1708088705269" duration="351000" />
     </task>
     <servers />
   </component>
