@@ -10,16 +10,15 @@ public partial class MainPage : ContentPage
     private string? _imagePath;
     private Database _database;
     public ObservableCollection<ImageInfo> Imgs;
-
-
-    ObservableCollection<ImageInfo> Images { get; set; } = new();
     
     public MainPage()
     {
         InitializeComponent();
+        
         _database = new Database();
         Imgs = new ObservableCollection<ImageInfo>();
-        ImgCollection.ItemsSource = Imgs;
+
+        BindableLayout.SetItemsSource(ImgCollection, Imgs);
     }
 
     private async void OnSelectBtn(object sender, EventArgs e)
@@ -45,24 +44,10 @@ public partial class MainPage : ContentPage
         imageInfo.Description = DescEditor.Text;
 
         var _ = await _database.AddImageInfo(imageInfo);
-        //AddImage(imageInfo);
         Imgs.Add(imageInfo);
         
         // reset controls
         
         idCounter++;
     }
-
-    //private void AddImage(ImageInfo imageInfo) // Lav om til template
-    //{
-    //    StackLayout stack = new StackLayout();
-    //    Image img = new Image
-    //    {
-    //        WidthRequest = "150*",
-    //    };
-    //    Label title = new Label();
-    //    Label desc = new Label();
-
-    //    img.Source = imageInfo.Path;
-    //}
 }

@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SelectImages.MainPage">
     <ScrollView BackgroundColor="#282c34">
-        <Grid
-            RowDefinitions="*, *, 8*"
+        <Grid RowDefinitions="*, *, 8*"
             ColumnDefinitions="2*, 3*, 3*, 2*"
             ColumnSpacing="40">
             <Label Grid.Row="0"
@@ -42,69 +41,35 @@
                     Margin="0, 0, 40, 0"
                     Text="Add image"
                     Clicked="OnAddBtn" />
-            <FlexLayout
-                Grid.Row="2"
+            <FlexLayout Grid.Row="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="4"
-                x:Name="Cont">
-                <CollectionView
-                    ItemsSource="{Binding Imgs}"
-                    ItemsLayout="HorizontalList"
-                    x:Name="ImgCollection">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout
-                                WidthRequest="150"
-                                Margin="40, 40, 40, 40">
-                                <Image
-                                    Source="{Binding Path}"/>
-                                <Label
-                                    Text="{Binding Title}"/>
-                                <Label
-                                    Text="{Binding Description}"/>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                Margin="20, 0, 20, 0"
+                BindableLayout.ItemsSource="{Binding Imgs}"
+                Wrap="Wrap"
+                x:Name="ImgCollection">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout WidthRequest="150"
+                                     Margin="10">
+                            <Border StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 10, 10, 10, 10">
+                                <Image Source="{Binding Path}"
+                                       HeightRequest="300"
+                                       Aspect="Fill" />
+                            </Border>
+                            <Label Text="{Binding Title}"
+                                   HorizontalTextAlignment="Center"
+                                   LineBreakMode="TailTruncation"/>
+                            <Label Text="{Binding Description}"
+                                   HorizontalTextAlignment="Center"
+                                   FontSize="12"
+                                   TextColor="#80ffffff"
+                                   LineBreakMode="TailTruncation" />
+                        </StackLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
             </FlexLayout>
         </Grid>
-        <!-- <Grid RowDefinitions="100, 100, 100, 100, 100" -->
-        <!--       ColumnDefinitions="600, 600" -->
-        <!--       RowSpacing="20" -->
-        <!--       ColumnSpacing="20" -->
-        <!--       HorizontalOptions="Center" -->
-        <!--       Margin="0, 100, 0, 0"> -->
-        <!--     <Label Grid.Row="0" -->
-        <!--            Grid.Column="0" -->
-        <!--            HorizontalOptions="Center" -->
-        <!--            FontSize="30" -->
-        <!--            Text="CP uploader" /> -->
-        <!--     <Button Grid.Row="1" -->
-        <!--             Grid.Column="0" -->
-        <!--             HeightRequest="60" -->
-        <!--             WidthRequest="200" -->
-        <!--             Text="Select CP" -->
-        <!--             Clicked="OnSelectBtn" /> -->
-        <!--     <Entry Grid.Row="2" -->
-        <!--            Grid.Column="0" -->
-        <!--            HeightRequest="40" -->
-        <!--            BackgroundColor="#21252b" -->
-        <!--            Placeholder="Enter title" -->
-        <!--            x:Name="TitleEntry" /> -->
-        <!--     <Editor Grid.Row="3" -->
-        <!--             Grid.Column="0" -->
-        <!--             BackgroundColor="#21252b" -->
-        <!--             Placeholder="Enter description" -->
-        <!--             x:Name="DescEditor" /> -->
-        <!--     <Button Grid.Row="4" -->
-        <!--             Grid.Column="0" -->
-        <!--             HeightRequest="60" -->
-        <!--             WidthRequest="200" -->
-        <!--             Text="Add CP" -->
-        <!--             Clicked="OnAddBtn" /> -->
-        <!--     <Image Grid.Row="0" -->
-        <!--            Grid.Column="1" -->
-        <!--            x:Name="SelectedImage"/> -->
-        <!-- </Grid> -->
     </ScrollView>
 </ContentPage>
