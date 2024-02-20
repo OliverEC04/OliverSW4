@@ -5,8 +5,45 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pages="clr-namespace:MauiStockTake.UI.Pages"
     xmlns:local="clr-namespace:MauiStockTake.UI"
-    Shell.FlyoutBehavior="Disabled">
-
+    Shell.FlyoutBehavior="Flyout">
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions="0.2*,0.8*">
+                <Image 
+                    Source="{Binding Icon}"
+                    Margin="35,0,0,0"
+                    HeightRequest="45" />
+                <Label 
+                    Grid.Column="1"
+                    Text="{Binding Text}"
+                    Margin="10,0,0,0"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+    <Shell.FlyoutHeader>
+        <Grid 
+            RowDefinitions="20,*,*"
+            Padding="20">
+            <Image Source="surfshack_logo.jpeg"
+                Grid.Row="1"
+                WidthRequest="100"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+                <Image.Clip>
+                    <EllipseGeometry 
+                        Center="50,50"
+                        RadiusX="50"
+                        RadiusY="50"/>
+                </Image.Clip>
+            </Image>
+            <Label Grid.Row="2"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="MauiStockTake"/>
+        </Grid>
+    </Shell.FlyoutHeader>
     <TabBar>
         <Tab
             Title="Input"
@@ -22,4 +59,7 @@
                 ContentTemplate="{DataTemplate pages:ReportPage}" />
         </Tab>
     </TabBar>
+    <MenuItem 
+        Text="Logout"
+        IconImageSource="icon_logout.png"/>
 </Shell>
