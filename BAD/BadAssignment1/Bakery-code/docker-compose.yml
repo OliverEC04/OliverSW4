@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.WEB
+    image: oliverec/oliverbad:bakery-code-web
     environment:
       - API_URL=http://api:80
     ports:
@@ -14,5 +15,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.API
+    image: oliverec/oliverbad:bakery-code-api
     ports:
       - "6060:80"
