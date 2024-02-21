@@ -8,5 +8,9 @@
             Text="Input Page"
             VerticalOptions="CenterAndExpand"
             HorizontalOptions="CenterAndExpand" />
+        <Button 
+            Text="Go to product"
+            WidthRequest="200"
+            Clicked="OnProduct"/>
     </VerticalStackLayout>
 </ContentPage>
