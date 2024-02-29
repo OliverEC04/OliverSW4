@@ -10,9 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BAD/BadAssignment1/Bakery-code/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAD/BadAssignment1/Bakery-code/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +115,7 @@
       <workItem from="1708087325681" duration="81000" />
       <workItem from="1708088705269" duration="351000" />
       <workItem from="1708438812859" duration="137000" />
+      <workItem from="1709112241518" duration="417000" />
     </task>
     <servers />
   </component>
