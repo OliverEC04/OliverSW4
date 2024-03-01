@@ -22,36 +22,33 @@ CREATE TABLE BkAddress (
 );
 
 CREATE TABLE BkDelivery(
-    TrackId INT,
+    TrackId INT PRIMARY KEY,
     [Date] DATE,
     [Number] INT,
     Street CHAR(100),
     PostalCode INT,
-    PRIMARY KEY (TrackId, [Number], Street, PostalCode),
-    FOREIGN KEY ([Number]) REFERENCES BkAddress,
-    FOREIGN KEY (Street) REFERENCES BkAddress,
-    FOREIGN KEY (PostalCode) REFERENCES BkAddress
+    FOREIGN KEY ([Number], Street, PostalCode) REFERENCES BkAddress([Number], Street, PostalCode)
 );
 
 CREATE TABLE BkStock (
   [Name] CHAR(100) PRIMARY KEY,
   Amount INT NOT NULL,
-  FOREIGN KEY ([Name]) REFERENCES BkIngredient
+  FOREIGN KEY ([Name]) REFERENCES BkIngredient([Name])
 );
 
 CREATE TABLE BkOrder (
   Id INT IDENTITY(1,1) PRIMARY KEY,
   BkCustomerName CHAR(100),
   BkDeliveryTrackId INT,
-  FOREIGN KEY (BkCustomerName) REFERENCES BkCustomer,
-  FOREIGN KEY (BkDeliveryTrackId) REFERENCES BkDelivery
+  FOREIGN KEY (BkCustomerName) REFERENCES BkCustomer([Name]),
+  FOREIGN KEY (BkDeliveryTrackId) REFERENCES BkDelivery(TrackId)
 );
 
 CREATE TABLE BkBatch (
   Id INT IDENTITY(1,1) PRIMARY KEY,
   [Delay] INT,
   BkOrderId INT,
-  FOREIGN KEY (BkOrderId) REFERENCES BkOrder
+  FOREIGN KEY (BkOrderId) REFERENCES BkOrder(Id)
 );
 
 -- Relations:
@@ -60,22 +57,22 @@ CREATE TABLE BakingGood_Order(
   OrderId INT,
   BakingGoodName CHAR(100),
   PRIMARY KEY (OrderId, BakingGoodName),
-  FOREIGN KEY (OrderId) REFERENCES BkOrder,
-  FOREIGN KEY (BakingGoodName) REFERENCES BkBakingGood
+  FOREIGN KEY (OrderId) REFERENCES BkOrder(Id),
+  FOREIGN KEY (BakingGoodName) REFERENCES BkBakingGood([Name])
 );
 
 CREATE TABLE BakingGood_Ingredient(
   BakingGoodName CHAR(100),
   IngredientName CHAR(100),
   PRIMARY KEY (BakingGoodName, IngredientName),
-  FOREIGN KEY (BakingGoodName) REFERENCES BkBakingGood,
-  FOREIGN KEY (IngredientName) REFERENCES BkIngredient
+  FOREIGN KEY (BakingGoodName) REFERENCES BkBakingGood([Name]),
+  FOREIGN KEY (IngredientName) REFERENCES BkIngredient([Name])
 );
 
 CREATE TABLE Ingredient_Batch(
   IngredientName CHAR(100),
   BatchId INT,
   PRIMARY KEY (IngredientName, BatchId),
-  FOREIGN KEY (IngredientName) REFERENCES BkIngredient,
-  FOREIGN KEY (BatchId) REFERENCES BkBatch
+  FOREIGN KEY (IngredientName) REFERENCES BkIngredient([Name]),
+  FOREIGN KEY (BatchId) REFERENCES BkBatch(Id)
 );
