@@ -2,37 +2,59 @@
 
 public class PortfolioData
 {
-    public int TotalValue { get; }
+    private List<Tuple<string, int>> _stocks = new();
+    public List<Tuple<string, int>> Stocks => _stocks;
+    public int TotalValue { get; set; }
+
+    public void UpdateAddStock(Tuple<string, int> stockInfo)
+    { 
+        _stocks.RemoveAll(s => s.Item1 == stockInfo.Item1);
+        _stocks.Add(stockInfo);
+    }
 }
 
-public class Portfolio<T> : IObserver<T>, ISubject<T>
+public class Portfolio : IObserver<StockData>, ISubject<PortfolioData>
 {
-    private List<IObserver<T>> _observers = new();
-    private T _state;
-    
-    public Portfolio(ISubject<T> subject, T state)
+    private List<IObserver<PortfolioData>> _observers = new();
+    private PortfolioData _state = new PortfolioData();
+
+    public Portfolio(ISubject<StockData> subject)
     {
-        subject.Attach(this);
-        _state = state;
-    }
-    
-    public void Update(T subjectData)
-    {
-        Console.WriteLine("hej obsss");
+        AttachSubject(subject);
     }
 
-    public void Attach(IObserver<T> observer)
+    public void AttachObserver(IObserver<PortfolioData> observer)
     {
-        throw new NotImplementedException();
+        _observers.Add(observer);
     }
 
-    public void Detach(IObserver<T> observer)
+    public void DetachObserver(IObserver<PortfolioData> observer)
     {
-        throw new NotImplementedException();
+        _observers.Remove(observer);
     }
 
-    public void Notify()
+    public void NotifyObservers()
     {
-        throw new NotImplementedException();
+        foreach (var observer in _observers)
+        {
+            observer.Update(_state);
+        }
+    }
+
+    public void AttachSubject(ISubject<StockData> subject)
+    {
+        subject.AttachObserver(this);
+    }
+
+    public void DetachSubject(ISubject<StockData> subject)
+    {
+        subject.DetachObserver(this);
+    }
+
+    public void Update(StockData subjectData)
+    {
+        _state.UpdateAddStock(Tuple.Create(subjectData.Name, subjectData.Value));
+
+        NotifyObservers();
     }
 }

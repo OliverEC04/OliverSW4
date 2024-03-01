@@ -1,9 +1,30 @@
 ﻿namespace StockPortfolio;
 
-public class PortfolioDisplay<T> : IObserver<T>
+public class PortfolioDisplay : IObserver<PortfolioData>
 {
-    public void Update(T subjectData)
+    public PortfolioDisplay(ISubject<PortfolioData> subject)
     {
-        throw new NotImplementedException();
+        AttachSubject(subject);
+    }
+
+    public void AttachSubject(ISubject<PortfolioData> subject)
+    {
+        subject.AttachObserver(this);
+    }
+
+    public void DetachSubject(ISubject<PortfolioData> subject)
+    {
+        subject.DetachObserver(this);
+    }
+
+    public void Update(PortfolioData subjectData)
+    {
+        Console.Clear();
+        Console.WriteLine("Portfolio overview:");
+        
+        foreach (var x in subjectData.Stocks)
+        {
+            Console.WriteLine($"{x.Item1}: {x.Item2}");
+        }
     }
 }
