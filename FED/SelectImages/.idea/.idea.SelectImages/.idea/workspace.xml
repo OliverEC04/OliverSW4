@@ -10,7 +10,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="" />
+    <list default="true" id="69b0ead3-8c77-419c-9f7c-dee24430a362" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/.idea/.idea.BikeStore/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/.idea/.idea.BikeStore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/.idea/.idea.BikeStore/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/.idea/.idea.BikeStore/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/BikeStore/BikeStores Sample Database - create objects.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/BikeStore/BikeStores Sample Database - drop all objects.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/BikeStore/BikeStores Sample Database - load data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAD/BikeStore/BikeStore/BikeStoresContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAD/BadAssignment2/CreateTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAD/BadAssignment2/CreateTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAD/BadAssignment2/InsertData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAD/BadAssignment2/InsertData.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAD/BadAssignment2/Kwewi.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAD/BadAssignment2/Kwewi.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAD/BadAssignment2/sw4bad-mas2-AU725541.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SelectImages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SelectImages/MainPage.xaml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +132,7 @@
       <workItem from="1708088705269" duration="351000" />
       <workItem from="1708438812859" duration="137000" />
       <workItem from="1709112241518" duration="417000" />
+      <workItem from="1709749936361" duration="4548000" />
     </task>
     <servers />
   </component>

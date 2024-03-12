@@ -2,7 +2,16 @@ INSERT INTO BkIngredient
 VALUES ('Red salami', 17);
 
 INSERT INTO BkBakingGood
-VALUES ('Salamikage', 2, 30);
+VALUES ('Salamikage', 4, 30);
+
+INSERT INTO BkBakingGood
+VALUES ('Lagkage', 4, 15);
+
+INSERT INTO BkBakingGood
+VALUES ('Terte', 2, 30);
+
+INSERT INTO BkBakingGood
+VALUES ('Romkugle', 6, 40);
 
 INSERT INTO BkCustomer
 VALUES ('Walmaaaart');
@@ -23,7 +32,7 @@ INSERT INTO BkBatch([Delay], BkOrderId)
 VALUES (3, 1);
 
 INSERT INTO BakingGood_Order
-VALUES (1, 'Salamikage');
+VALUES (1, 'Salamikage', 4);
 
 INSERT INTO BakingGood_Ingredient
 VALUES ('Salamikage', 'Red salami');

@@ -1,24 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SelectImages.MainPage">
     <ScrollView BackgroundColor="#282c34">
         <Grid RowDefinitions="*, *, 8*"
-            ColumnDefinitions="2*, 3*, 3*, 2*"
-            ColumnSpacing="40">
+              ColumnDefinitions="2*, 3*, 3*, 2*"
+              ColumnSpacing="40">
             <Label Grid.Row="0"
                    Grid.Column="0"
                    Grid.ColumnSpan="4"
                    FontSize="30"
                    HorizontalOptions="Center"
                    VerticalTextAlignment="Center"
-                   Text="Select images beautiful app"/>
+                   Text="Select images beautiful app" />
             <Button Grid.Row="1"
                     Grid.Column="0"
                     HeightRequest="40"
                     WidthRequest="160"
                     CornerRadius="20"
                     Margin="40, 0, 0, 0"
+                    BackgroundColor="#61afef"
                     Text="Select image"
                     Clicked="OnSelectBtn" />
             <Entry Grid.Row="1"
@@ -39,15 +41,16 @@
                     WidthRequest="160"
                     CornerRadius="20"
                     Margin="0, 0, 40, 0"
+                    BackgroundColor="#61afef"
                     Text="Add image"
                     Clicked="OnAddBtn" />
             <FlexLayout Grid.Row="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="4"
-                Margin="20, 0, 20, 0"
-                BindableLayout.ItemsSource="{Binding Imgs}"
-                Wrap="Wrap"
-                x:Name="ImgCollection">
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        Margin="20, 0, 20, 0"
+                        BindableLayout.ItemsSource="{Binding Imgs}"
+                        Wrap="Wrap"
+                        x:Name="ImgCollection">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
                         <StackLayout WidthRequest="150"
@@ -60,7 +63,7 @@
                             </Border>
                             <Label Text="{Binding Title}"
                                    HorizontalTextAlignment="Center"
-                                   LineBreakMode="TailTruncation"/>
+                                   LineBreakMode="TailTruncation" />
                             <Label Text="{Binding Description}"
                                    HorizontalTextAlignment="Center"
                                    FontSize="12"

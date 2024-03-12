@@ -56,6 +56,7 @@ CREATE TABLE BkBatch (
 CREATE TABLE BakingGood_Order(
   OrderId INT,
   BakingGoodName CHAR(100),
+  Amount INT,
   PRIMARY KEY (OrderId, BakingGoodName),
   FOREIGN KEY (OrderId) REFERENCES BkOrder(Id),
   FOREIGN KEY (BakingGoodName) REFERENCES BkBakingGood([Name])

@@ -22,8 +22,9 @@ FROM BkOrder
 WHERE Id = 1;
 
 -- 6:
-SELECT *
-FROM BkBakingGood;
+SELECT [Name], Amount
+FROM BkBakingGood
+GROUP BY [Name], Amount;
 
 -- 7:
 SELECT AVG([Delay]) AS AverageDelay

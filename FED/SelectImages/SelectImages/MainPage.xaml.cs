@@ -25,7 +25,7 @@ public partial class MainPage : ContentPage
     {
         var image = await FilePicker.Default.PickAsync(new PickOptions
             {
-                PickerTitle = "Greg er gay",
+                PickerTitle = "Select image",
                 FileTypes = FilePickerFileType.Images
             });
         if (image != null)
@@ -46,7 +46,7 @@ public partial class MainPage : ContentPage
         var _ = await _database.AddImageInfo(imageInfo);
         Imgs.Add(imageInfo);
         
-        // reset controls
+        // TODO: reset controls
         
         idCounter++;
     }
