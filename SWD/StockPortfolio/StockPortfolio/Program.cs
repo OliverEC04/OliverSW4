@@ -6,7 +6,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        #region Initialization
 
         List<Stock> stocks = new();
         stocks.Add(new Stock("Gamestop", 400));
@@ -21,6 +21,10 @@ internal class Program
 
         PortfolioDisplay portfolioDisplay1 = new(portfolioOliver);
 
+        #endregion
+
+        #region Loop
+
         while (true)
         {
             foreach (var stock in stocks)
@@ -30,5 +34,7 @@ internal class Program
 
             Thread.Sleep(1000);
         }
+
+        #endregion
     }
 }

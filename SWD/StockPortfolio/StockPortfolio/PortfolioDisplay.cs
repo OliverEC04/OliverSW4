@@ -2,10 +2,14 @@
 
 public class PortfolioDisplay : IObserver<PortfolioData>
 {
-    public PortfolioDisplay(ISubject<PortfolioData> subject)
+    private PortfolioData? _portfolioData;
+
+    public PortfolioDisplay(ISubject<PortfolioData>? subject)
     {
-        AttachSubject(subject);
+        if (subject != null) AttachSubject(subject);
     }
+
+    #region ObserverMethods
 
     public void AttachSubject(ISubject<PortfolioData> subject)
     {
@@ -19,12 +23,25 @@ public class PortfolioDisplay : IObserver<PortfolioData>
 
     public void Update(PortfolioData subjectData)
     {
+        _portfolioData = subjectData;
+
+        Display();
+    }
+
+    #endregion
+
+    /// <summary>
+    /// Displays the name and value for all stocks in the portfolio.
+    /// </summary>
+    private void Display()
+    {
         Console.Clear();
         Console.WriteLine("Portfolio overview:");
-        
-        foreach (var x in subjectData.Stocks)
+
+        if (_portfolioData == null) return;
+        foreach (var stockInfo in _portfolioData.Stocks)
         {
-            Console.WriteLine($"{x.Item1}: {x.Item2}");
+            Console.WriteLine($"{stockInfo.Item1}: {stockInfo.Item2}");
         }
     }
 }
