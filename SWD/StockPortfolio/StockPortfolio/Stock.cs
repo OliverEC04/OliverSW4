@@ -16,7 +16,8 @@ public class Stock : ISubject<StockData>
         _state.Name = name;
         _state.Value = initValue;
     }
-    
+
+    #region SubjectMethods
     public void AttachObserver(IObserver<StockData> observer)
     {
         _observers.Add(observer);
@@ -35,7 +36,11 @@ public class Stock : ISubject<StockData>
             observer.Update(_state);
         }
     }
+    #endregion
 
+    /// <summary>
+    /// Updates value of the stock with some randomness, and notifies observers.
+    /// </summary>
     public void Refresh()
     {
         var rnd = new Random();
